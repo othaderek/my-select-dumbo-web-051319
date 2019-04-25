@@ -7,4 +7,5 @@ def my_select(collection)
   
 end
 
-my_select()
+my_select(collection) do
+  
