@@ -7,5 +7,6 @@ def my_select(collection)
   
 end
 
-my_select(collection) do
+my_select(collection) do |num|
+  num % 2
   
