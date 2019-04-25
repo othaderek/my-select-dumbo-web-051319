@@ -8,6 +8,6 @@ def my_select(collection)
 end
 
 my_select(collection) do |num|
-  num % 2 == 0
+  num.even?
 end
   
